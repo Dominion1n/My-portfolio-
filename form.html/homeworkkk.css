@@ -1,0 +1,53 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+body{
+  size: 100px;
+   background-color:lightcoral;
+  width: 100;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-style: oblique;
+  gap: 2rem;
+  box-decoration-break: clone;
+}
+
+h1{
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+a{ 
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+    sans-serif;
+    gap: 20rem;
+     
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    color: chartreuse;
+    background-color: dimgrey;
+    font-family: 'Times New Roman',
+     Times, serif;
+}
+section div{
+    margin: 0;
+ margin: 0;
+ box-sizing: border-box;   
+ box-sizing: 20px 10px 20px 10px;
+ background-color: greenyellow;
+ justify-content: center;
+
+}
+.one{
+    background-color: red;
+    width: 30%;
+    float: left;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --greetext: blue;
+    --dog: Nunito;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header:hover {}
+
+header {
+    background-color: #e1c8bd;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: o 3rem;
+    position: fixed;
+    top: 0;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 25px;
+    width: 25px;
+}
+
+.buttonn {
+    text-transform: uppercase;
+    background-color: var(--greetext);
+    height: 20px;
+    width: 10%;
+    border-radius: 15%;
+    color: aliceblue;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: var(--greetext);
+}
+
+.red {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.red li a {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+.red a {
+    text-decoration: none;
+    color: var(--greetext);
+    font-weight: 100;
+    font-size: 20px;
+}
+
+main {
+    background-color: white;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.brown p {
+    font-size: 3vh;
+}
+
+main img {
+    height: 29.5rem;
+    width: 21rem;
+}
+
+.brown h1 {
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: 'Nunito';
+}
+
+main div h1 {
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: 'Nunito';
+}
+
+.blue {
+    color: var(--greetext);
+}
+
+.four {
+    color: black;
+}
+
+.class {
+    color: var(--greetext);
+}
+
+.green {
+    color: black;
+}
+
+.wait {
+    gap: 10px
+}
+
+.paragraph1 {}
+
+div img {
+    height: 50vh;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+}
+
+.three {
+    justify-content: end;
+    flex-direction: left;
+    color: red;
+    background-color: var(--greetext);
+
+}
+
+footer {
+    height: 40vh;
+    width: 100%;
+    background-color: var(--greetext);
+}

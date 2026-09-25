@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{ --Herobg:#0678c8;
+    --headerbg: #090b0a;
+}
+nav{
+    
+}
+nav{
+  background-color: #1985cf;
+  height: 10vh;
+  width: auto;
+  justify-content:space-around;
+  text-align: center;
+  border-radius: 20px;
+
+}
+body{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    background-color: #0678c8;
+}
+main{
+    width: 100%;
+    height: 1000;
+}
+.Hero{
+    width: 100px;
+    height: 300px;
+    opacity: 1;
+    background-color: var(--Herobg);
+}
+#Hero header{
+    width: 1240;
+    height: 60.08px;
+    justify-content: space-between;
+    opacity: 1;
+    top: 20px;
+    left: 100px;
+    border-radius: 40px;
+    border-width: 1;
+    padding: 10px 16px;
+    background-color: var(--headerbg);
+    box-decoration-break: 1px solid var(--headerbg);
+    position: fixed;
+}

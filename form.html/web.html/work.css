@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 50%;
+    background-color:skyblue;
+    min-height: 100vh;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+} 
+#Pchone-gallery{
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 1rem;
+
+}
+
+#Phone-gallery div{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 
+    37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+    gap: 20px;
+}
+
+.Phone-gallery-items img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    gap: 20px;
+
+}
+
+.Phone-gallery-items h5{
+    background-color: cadetblue;
+    color: chocolate;
+    padding: 0 10px;
+}
+
+.Phone-gallery-items p{
+    font-size: 0.55rem;
+}
+.Phone-gallery-items button{
+    border: none;
+    color: red;
+    background-color:blue;
+    border-radius: 10px;
+    font-weight: bold;
+
+}

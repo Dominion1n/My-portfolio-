@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+  size: 100px;
+   background-color: aqua;
+  width: 100;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-style: oblique;
+  gap: 2rem;
+}
+.h1{
+    color: darkblue;
+}
+first ul{
+    justify-content: space-around;
+    text-align: center;
+    color: brown;
+    text-decoration-thickness: 2px;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', 
+    Times, serif;
+    gap: 50px;
+    color: black;
+}
+
+button{
+    margin: 5,5;
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    background-color: red;
+    color: rgb(10, 117, 127);
+}
+.l{
+    justify-content: space-around;
+    text-align: center;
+    color: brown;
+    text-decoration-thickness: 30px;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 50px;
+    
+    flex-direction: column;
+    
+}
