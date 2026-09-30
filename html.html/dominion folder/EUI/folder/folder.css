@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  nav{
+    background-color: blueviolet;
+}
+span{
+    color: orange;
+}
+ nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+button{
+    background-color: orange;
+    padding: 5px;
+    border: 20px;
+}
+div{
+    color: black;
+    gap: 20;
+
+}
+.rat{
+  color:Orange;
+}
+
+.lion{
+    background-color: ;
+    display: flex;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: antiquewhite;
+    min-height: 70vh;
+    width: 100%;
+
+    
+}
+h1{
+    margin-bottom:20px ;
+}
+.dog{
+    height: 10px;
+    width: 30%;
+    background-color:orange;
+}
+img{
+    justify-content: space-between;
+    display: flex;
+    height: 40vh;
+    width: 105%;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
